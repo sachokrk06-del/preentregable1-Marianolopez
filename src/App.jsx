@@ -1,13 +1,18 @@
 
 import './App.css'
-import Titulo from "./components/Titulo"
+import Navbar from './components/Navbar/navbar'
+import ItemListContainer from './components/ItemLisContainer/ItemListContainer'
+import Counter from './components/Counter/Counter'
 function App() {
 
 
+  
   return (
     <div>
-      <Titulo/>
-      <h1>hoala mundo</h1>
+      <Navbar />
+      <ItemListContainer saludo={"bienvenidos a mi tienda"} />
+      <ItemListContainer saludo={"ya terminamos"} />
+      <Counter/>
     </div>
   )
 }

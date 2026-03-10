@@ -1,8 +1,14 @@
+import "./Titulo.css"
+import banner from "../assets/img/carrito.jpg"
+
 const Titulo = () => {
 
+    const tittle = "bienvenidos a mi pagina"
+
     return(
-        <div>
-            <h1>Titulo</h1>
+        <div className="titulo">
+            <img src={banner} alt="" />
+            <h1>{tittle}</h1>
         </div>
     )
 }
