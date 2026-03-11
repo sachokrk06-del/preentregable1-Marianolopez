@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar />
       <ItemListContainer saludo={"bienvenidos a mi tienda"} />
-      <ItemListContainer saludo={"ya terminamos"} />
+
       <Counter/>
     </div>
   )
